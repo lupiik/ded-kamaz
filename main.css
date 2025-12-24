@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+p, h1, h3, h2, a, option, select, input {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.listStyle{
+    background-color: rgb(82, 150, 227);
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    color: #ffffff;
+}
+ 
+.Spisok{
+    width: 185px;
+    height: 44px;
+    background-color: rgb(82, 150, 227);;
+    color: aliceblue;
+    border-radius:10px ;
+    text-align: center;
+}
+
+.SpisokItem:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.listStyleItem{
+    display: inline-block;
+    font-size: 5mm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px rgb(82, 150, 227)solid;
+    height: 70px;
+    gap:40px
+}
+
+#mainInput{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    border: 2px rgb(82, 150, 227) solid;
+    padding: 0 0 0 22px;
+    outline: none
+}
+
+.inputLine{
+    display: flex;
+    justify-content: center;
+}
+#lupa{
+    background-color: rgb(82, 150, 227);;
+    border-radius:0 10px 10px 0 ;
+}
+
+.profKor{
+    display: flex;
+    gap: 50px;
+    
+}
+.avatarIMG {
+    width: 40px;
+    height: 40px;
+}
+
+.prof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Kor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.korzinaImg{
+    width: 40px;
+    height: 40px;
+}
+.container{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 150, 227);
+    padding: 5px 5px 15px 5px;
+}
+.SweetGiftContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    gap: 20px;
+    
+}
+.SweetGift{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    border-radius: 10px ;
+    width: 200px;
+    height: 100;
+    background-color: aliceblue;
+    transition: transform 0.8s ease;
+}
+.SweetGift:hover{
+    transform: scale(1.05);
+    
+}
+
+.textFormat{
+    background-color:rgb(82, 150, 227) ;
+    margin: 0;
+    padding: 50px 0 50px 40px;
+    color: #ffffff;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    
+    
+}
+.SweetGiftItem{
+    width: 150px;
+    height: 150px;
+}
+.SweetGiftImg{
+    width: 200px;
+    height: 200px;
+}
+.BuyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(82, 150, 227);
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.BuyButton:hover{
+    color: rgb(82, 150, 227);
+    background-color: whitesmoke;
+    border:1px rgb(82, 150, 227) solid;
+}
+.text{
+    text-align: center;
+}
+ 
+footer{
+    background-color: rgb(60, 59, 59);
+
+}
+.footerInfo{
+    display: flex;
+    gap: 20px;
+
+}
+.footerContact{
+    width: 160px;
+    margin: 50px 0 0 0 ;
+    font-size: 4mm;
+}
+.footerKatalog{
+    margin: 50px 0 0 0;
+    font-size: 4mm;
+    width: 200px;
+}
+.footerContactItem:hover{
+    color: rgb(82, 150, 227);
+
+} 
+
+.snowContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
+
+}
+.snow{
+    position: absolute;
+    top: -10%;
+    color: #0f0576;
+    font-size: 24px;
+    animation: fall 10s linear infinite;
+}
+.snow:nth-child(1){
+    left: 10%;
+    animation-duration: 8s;
+    animation-delay: 0s;
+}
+.snow:nth-child(2){
+    left: 20%;
+    animation-duration: 8s;
+    animation-delay: 1.5s;
+}
+.snow:nth-child(3){
+    left: 30%;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    font-size: 40px;
+}
+.snow:nth-child(4){
+    left: 30%;
+    animation-duration: 34s;
+    animation-delay: 0s;
+}
+.snow:nth-child(5){
+    left: 50%;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    font-size: 10px;
+}
+.snow:nth-child(6){
+    left: 60%;
+    animation-duration: 9s;
+    animation-delay: 1s;
+    font-size: 20px;
+}
+.snow:nth-child(7){
+    left: 70%;
+    animation-duration: 8s;
+    animation-delay: 3s;
+}
+.snow:nth-child(8){
+    left: 80%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+    font-size: 25px;
+}
+.snow:nth-child(9){
+    left: 100%;
+    animation-duration: 12s;
+    animation-delay: 4s;
+    font-size: 30px;
+}
+.snow:nth-child(10){
+    left: 50%;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    font-size: 26px;
+}
+
+@font-face {
+font-family: 'Comfortaa';
+src: url(fonts/Comfortaa-Bold.ttf) format(truetype);
+font-weight: 400;
+font-style: normal;
+font-display: swap
+
+}
+@keyframes fall{
+    0%{
+        top: -10%;
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    100%{
+        top: 100%;
+        transform: translateX(-20px);
+    }
+    
+}

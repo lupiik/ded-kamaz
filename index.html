@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="snowContainer">
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+        <div class="snow">❅</div>
+    </div>
+    <header>
+        <div>
+            <ul class="listStyle">
+                <li class="listStyleItem">Каталог</li>
+                <li class="listStyleItem">Способ доставки</li>
+                <li class="listStyleItem">Личный кабинет</li>
+            </ul>
+        </div>
+
+        <div class="headerSearch">
+            <img src="" alt="logo">
+            <form >
+                <select onchange="katalog(this)" class="Spisok">
+                    <option value="/" class="SpisokItem">Каталог</option>
+                    <option value="#SweetGift">Сладкие подарки</option>
+                    <option value="#PlushGift">Плюшевые игрушки</option>
+                    <option value="#postcard    ">Открытки</option>
+                </select>
+            </form>
+            <form action="" >
+                <span class="inputLine">
+                    <input type="text" name="text" id="mainInput" placeholder="Поиск по каталогу">
+                    <img src="img/search.png" alt="Лупа" width="44" height="43" id="lupa" >
+                </span>
+            </form>
+            <div>
+                <div class="profKor">
+                    <div class="prof">
+                        <img src="img/avatar_4009150.png" alt="Кабинет" class="avatarIMG">
+                    </div>
+                    <div class="Kor">
+                        <img src="img/корзина.png" alt="корзина" class="korzinaImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Poster">
+            <img src="img/Gift.png" alt="Постер с обявлением">
+        </div>
+    </header>
+    
+    <div>
+        <h1 id="SweetGift" class="textFormat">Сладкие подарки</h1>
+        <div class="container">
+            <div class="SweetGiftContainer">
+                <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_Каштан.png" alt="" class="SweetGiftItem">
+                    <p class="text">Каштан</p>
+                    <h3>2 000p</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_«Калейдоскоп».png" alt="" class="SweetGiftItem">
+                    <p class="text">Калейдоскоп</p>
+                    <h3>3560р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_Башмачок.png" alt="" class="SweetGiftItem">
+                    <p class="text">Башмачок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_Джип.png" alt=""class="SweetGiftItem">
+                    <p class="text">Джип</p>
+                    <h3>45460р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+
+                </div>
+                 <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_Искорка.png" alt=""class="SweetGiftItem">
+                    <p class="text">Искорка</p>
+                    <h3>2560р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                 <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_Короб10790.png" alt=""class="SweetGiftItem">
+                    <p class="text">Короб</p>
+                    <h3>10790</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                 <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогодний_подарок_Слиток.png   " alt=""class="SweetGiftItem">
+                    <p class="text">Слиток</p>
+                    <h3>2590р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                 <div class="SweetGift">
+                    <img src="img/SweetGift/Детский_сладкий_новогоднийподарок_Музыка2170.png" alt=""class="SweetGiftItem">
+                    <p class="text">Музыкальная шкатулка</p>
+                    <h3>6069</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+        <div>
+        <h1 id="PlushGift" class="textFormat">Плюшевые игрушки</h1>
+        <div class="container">
+            <div class="SweetGiftContainer">
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">1 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">2 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">3 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                    <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+            </div>
+            
+        </div>
+
+        
+        <div>
+        <h1 id="postcard" class="textFormat">Открытки</h1>
+        <div class="container">
+            <div class="SweetGiftContainer">
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">1 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">2 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">3 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                    <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+            </div>
+        </div>
+                <div>
+        <h1 id="drugoe" class="textFormat">Другое</h1>
+        <div class="container">
+            <div class="SweetGiftContainer">
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">1 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">2 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt="" class="SweetGiftItem">
+                    <p class="text">3 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                    <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+                                <div class="SweetGift">
+                    <img src="img/Gift.png" alt=""class="SweetGiftItem">
+                    <p class="text">4 подарок</p>
+                    <h3>32280р</h3>
+                    <a href=""> <div class="BuyButton">Купить</div></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+
+    <footer id="footer">
+        <div class="footerInfo">
+            <div class="footerLogo" >
+                <img src="" alt="logo for store">
+            </div>
+            <div class="footerContact">
+                <p><a href="" class="footerContactItem">Наши контакты</a></p>
+                <p><a href="" class="footerContactItem"> О магвзине</a></p>
+                <div>
+                    <p><a href="" class="footerContactItem">Способы оплаты</a></p>
+                <span class="pay">
+                    <img src="" alt="мир">
+                    <img src="" alt="PaypPal">
+                    <img src="" alt="MasterVard">
+                    <img src="" alt="VisaCard">
+                </span>
+                </div>
+                
+                
+            </div>
+            
+            <div class="footerKatalog">
+                <p><a href="#SweetGift" class="footerContactItem">Сладкие подарки</a> </p>
+                <p><a href="#PlushGift" class="footerContactItem">Плюшевые игрушки</a></p>
+                <p><a href="#postcard" class="footerContactItem">Открытки</a></p>
+                <p><a href="#drugoe" class="footerContactItem">Другое</a></p>
+            </div>
+
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A839b950200a4a42fac0e2cb28449e8026001a8ce8c4ac5cec5278b05f06b5452&amp;width=1000&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+
+        
+    </footer>
+
+    <script>
+  function katalog(element) {
+        const url = element.value;
+
+        if (url) {
+            // Переходим по ссылке
+            window.location.href = url;
+            
+            // Секрет для очень умелой разработчицы:
+            // Сбрасываем выбор обратно на первый пункт (индекс 0), 
+            // чтобы можно было выбирать этот же пункт снова и снова!
+            element.selectedIndex = 0;
+        }
+    }
+    </script>
+</body>
+</html>
