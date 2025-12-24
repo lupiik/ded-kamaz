@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
 }
-
 a{
     text-decoration: none;
     color: aliceblue;
@@ -258,6 +257,7 @@ footer{
     animation-delay: 0s;
     font-size: 26px;
 }
+
 
 @font-face {
 font-family: 'Comfortaa';
